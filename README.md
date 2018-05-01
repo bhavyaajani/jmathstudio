@@ -1,2 +1,80 @@
 # jmathstudio
-Java toolkit for image and signal processing
+JMathStudio is a pure Java based numerical computation toolkit for discrete Image and Signal processing. This toolkit provides a Java developer with many of the advanced and basic discrete image and signal processing capabilities. This is a stand alone toolkit with no dependencies other than the JDK/JRE 1.5 or higher.
+JMathStudio is an exhaustive library of more than 500 defined functions, operations, transforms and utilities useful in discrete Image and Signal processing (over 40,000 lines of java code). Some of the important capabilities provided by this toolkit are:
+
+- Define various 1D and 2D real and complex data structures and many of the useful manipulations over the same.
+- Define various iterators to iterate over the elements of data structures.
+- Support interface to load and write an external image with different image formats (like PNG, JPEG, TIFF etc) to/from different   PixelImages (which is JMathStudio standard image type) or Java Buffered Image.
+- Provides easy interface to display different kind of images and to plot a signal.
+- On image processing side this toolkit supports numerous operations, transforms and algorithms ranging from,
+  - Image Clustering
+  - Image denoising
+  - Image fusion
+  - Additive noise models
+  - Radon transform and its inverse (parallel beam)
+  - Discrete Wavelet transform (Analytical and Synthesis)
+  - Binary and Gray scale morphological operations
+  - Discrete filters :
+     - Spatial 2D filters
+     - Separable 2D spatial filter
+     - Recursive 2D separable filter
+  - Statistical filters
+  - Gradient Diffusion filter
+  - Gaussian Isotropic/Anisotropic filter
+  - Bilateral filter
+  - Edge detectors
+  - Corner detectors
+  - FFT, DCT, DST, DHT
+  - Wavelet transform
+  - Hough transform
+  - Spectral analysis - Energy and Power spectral density estimation
+  - Eigen and Fisher face generation
+  - Scale-Space framework
+  - Intensity transforms
+  - Bit plane manipulation
+  - Point operations
+  - Gray level transforms
+  - Threshold
+  - Image Binarization
+  - Dithering
+  - Geometric transform
+  - Affine transforms
+  - Euclidian transforms
+  - Distance Maps
+  - Connected component analysis
+  - Statistical operations
+  - Convolution
+  - Resamping
+- On signal processing side this toolkit supports various operations and transforms ranging from:
+  - Discrete filters :
+    - FIR filters
+    - IIR filters
+    - Impulse filters
+  - Additive noise models
+  - Cepstral Analysis
+  - Convolution :
+    - Linear convolution
+    - Circular convolution
+  - Modulation :
+    - Amplitude modulation and demodulation
+    - Frequency modulation and demodulation
+    - Phase modulation and demodulation
+  - Resampling
+  - Fast Chirplet transform
+  - Hilbert transform
+  - Short time Fourier and Chirplet transform
+  - FFT, DST, WHT, DCT, DHT
+  - Wavelet transform
+  - Spectral analysis - Energy and Power spectral density estimation
+  - Window and Signal generation
+
+- Toolkit also provides many of the useful mathematical capabilities like :
+  - Linear matrix algebra
+  - Numerical decompositions
+  - 1D and 2D Statistical operations
+  - Statistical distributions
+  - Calculus
+  - Combinatric
+  - Interpolation
+  - Histogram operations
+  - Numerical Analysis
