@@ -1,0 +1,31 @@
+This document describes historical changes made in the software for different version of release.
+
+version 1.2.0: Following changes were made in the software:
+
+1. Removed support for native implementation for few of the operations using JNI.
+   - JNIManager class is no longer available.
+2. Introduced new classes FFT1D2X and FFT2D2X.
+3. Introduced new classes LinearRegression & PolynomialRegression.
+4. Added new linespace method in SignalGenerator class.
+5. Added new sortAscending & sortDescending methods in VectorTools class.
+6. Added new findAllElementIndexesInRange, findAllLargerElementIndexes & findAllSmallerElementIndexes
+   methods in VectorProbe class.
+7. Added new findAllElementIndexesInRange, findAllLargerElementIndexes & findAllSmallerElementIndexes
+   methods in CellProbe class.
+8. Added new getAllElements method in Vector class.
+9. Removed argument 'db' from SignalSpectrum#PSD method which was not used within method.
+
+
+version 1.1.0: Following changes were made in the software:
+
+1. Added new GeodesicDistanceMap & GeodesicBinaryMorphology classes 
+   within org.JMathStudio.ImageToolkit.SpatialTools package.
+2. Minor performance improvement in DistanceMap class.
+3. Minor performance improvement in BinaryMorphology::erasion &   
+   BinaryMorphology::dilation methods.
+4. Fixed bug: Disable graph zoom feature for VectorRunningGraph.
+5. Added new method isWithinBounds(Index2D index) in 
+   AbstractPixelImage.
+
+
+version 1.0.0: Initial Release.
